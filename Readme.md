@@ -29,3 +29,7 @@ Setup
 
 - git clone https://github.com/1stOctet/YouWillUnderstandWhenYouAreOlder.git
 
+Currently using this guide https://github.com/pi-hole/docs/blob/release/v5.0/docs/database/gravity/example.md
+to understand how to flip a site from blocked to not blocked via the "Raw database instructions"
+
+
