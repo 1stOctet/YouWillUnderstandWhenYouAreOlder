@@ -8,7 +8,7 @@ With the awesome per client features of Pi-hole 5.0 beta it will now be possible
 
 Goal:  After 2 hours, block 2 or 3 sites that my 13 year old uses the most.  Unblock those sites once they have earned 1 point on Typing Club or Khan Academy.
 
-I will update this post as I do this tonight.  Look for updates here or on the github project.
+I will update this readme as I do this tonight. 
 
 https://github.com/1stOctet/YouWillUnderstandWhenYouAreOlder
 
