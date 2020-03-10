@@ -45,3 +45,9 @@ Look at database-script3.sh first before running. Trust but verify.
 
 Please first modify the database-script3.sh to include the domains you want to block.
 - sudo bash database-script4.sh 
+
+This script is unecessary if you use the pi-hole web interface to link the domains to a group.
+If it doesn't make sense to you, please use the pi-hole gui.
+Be sure to edit this file for the number of domains you are blocking periodically to ensure your child goes to Harvard.
+- sudo bash database-script5.sh 
+
