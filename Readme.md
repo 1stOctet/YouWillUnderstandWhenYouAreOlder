@@ -17,6 +17,8 @@ Setup
 
 - For this to work you need to create an "old school" email login. This is important because we will have a nodejs script that will log in as you to check your child's account for points.
 
+- After you create an account as a parent, create a sub account for the child.  Note typing club doesn't have a parent and a child account.  
+
 - Todo (Explain how to install Linux on a raspberry pi or old computer)
 
 - Todo (Explain how to install pi-hole and upgrade to pi-hole 5.0 beta)
