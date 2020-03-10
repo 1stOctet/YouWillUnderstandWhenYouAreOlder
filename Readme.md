@@ -61,6 +61,6 @@ All the functionality is here.
 
 - If user-YouWillUnderstandWhenYouAreOlder.txt exists, this means the sites are blocked.  We need to frequently check khan academy and typing club to see if 1 point has been earned.  
 
-- When the point checking cronjob runs every minute, it will output a user-typingclub-current.txt file and a user-khanacademy-current.txt file.  Using bash it will check if those files are diffent than user-typingclub-last.txt file and user-khanacademy-last.txt file.  If they are different, this means the child has earned at least 1 point.  Disable the blocking.  If the files are the same, delete typingclub-last.txt and khanacademy-last.txt 
+- When the point checking cronjob runs every minute, it will output a user-typingclub-current.txt file and a user-khanacademy-current.txt file.  Using bash it will check if those files are diffent than user-typingclub-last.txt file and user-khanacademy-last.txt file.  If they are different, this means the child has earned at least 1 point.  Disable the blocking.  If the files are the same, delete user-typingclub-current.txt and user-khanacademy-current.txt 
 
 
