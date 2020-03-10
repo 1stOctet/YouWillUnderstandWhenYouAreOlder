@@ -39,3 +39,6 @@ Look at database-script1.sh first before running. Trust but verify.
 
 Please first modify the database-script2.sh file and change 222.222.222.222 ip to your child's ip address.
 - sudo bash database-script2.sh 
+
+Look at database-script3.sh first before running. Trust but verify.
+- sudo bash database-script3.sh 
