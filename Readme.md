@@ -35,4 +35,7 @@ to understand how to flip a site from blocked to not blocked via the "Raw databa
 Look at database-script1.sh first before running. Trust but verify.
 - sudo bash database-script1.sh 
 
+- Todo (Explain how to figure out what your child's ip address is using the pi-hole web interface)
 
+Please first modify the database-script2.sh file and change 222.222.222.222 ip to your child's ip address.
+- sudo bash database-script2.sh 
