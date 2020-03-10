@@ -42,3 +42,6 @@ Please first modify the database-script2.sh file and change 222.222.222.222 ip t
 
 Look at database-script3.sh first before running. Trust but verify.
 - sudo bash database-script3.sh 
+
+Please first modify the database-script3.sh to include the domains you want to block.
+- sudo bash database-script4.sh 
