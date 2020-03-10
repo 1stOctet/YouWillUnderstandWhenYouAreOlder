@@ -51,3 +51,16 @@ If it doesn't make sense to you, please use the pi-hole gui.
 Be sure to edit this file for the number of domains you are blocking periodically to ensure your child goes to Harvard.
 - sudo bash database-script5.sh 
 
+-Todo (add database-script6.sh to disable the blacklisted domains so that they work until the cronjob enables them)
+
+All the functionality is here.  
+
+#Tomorrow night I will add the basic crontab scripts.  
+
+- Run a cronjob every 4 hours that enables the blacklisted domains.  After sleeping for 20 seconds, do a point check to create user-typingclub-last.txt file and user-khanacademy-last.txt files.  Create a file user-YouWillUnderstandWhenYouAreOlder.txt to signal to the other cronjob that sites are being blocked for that user(s).
+
+- If user-YouWillUnderstandWhenYouAreOlder.txt exists, this means the sites are blocked.  We need to frequently check khan academy and typing club to see if 1 point has been earned.  
+
+- When the point checking cronjob runs every minute, it will output a user-typingclub-current.txt file and a user-khanacademy-current.txt file.  Using bash it will check if those files are diffent than user-typingclub-last.txt file and user-khanacademy-last.txt file.  If they are different, this means the child has earned at least 1 point.  Disable the blocking.  If the files are the same, delete typingclub-last.txt and khanacademy-last.txt 
+
+
