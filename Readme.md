@@ -65,4 +65,6 @@ All the functionality is here.
 
 - When the point checking cronjob runs every minute, it will output a user-typingclub-current.txt file and a user-khanacademy-current.txt file.  Using bash it will check if those files are diffent than user-typingclub-last.txt file and user-khanacademy-last.txt file.  If they are different, this means the child has earned at least 1 point.  Disable the blocking.  If the files are the same, delete user-typingclub-current.txt and user-khanacademy-current.txt 
 
+- Todo (It is unecessary to frequently check for points if the user's ip address has not sent a DNS request in the last 15 minutes.  Some education sites will not like so many logins to check points all night.  Figure out the table to determine if the user has sent a DNS query in the last 15 minutes.  Ignore the apple / google domains that run often at night.
+
 
