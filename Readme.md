@@ -7,3 +7,8 @@ Goal:  After 2 hours, block 2 or 3 sites that my 13 year old uses the most.  Unb
 I will update this post as I do this tonight.  Look for updates here or on the github project.
 
 https://github.com/1stOctet/YouWillUnderstandWhenYouAreOlder
+
+Setup
+- Create an account on typing club or khan academy as a parent.   Do not use facebook or google to log in.  For this to work you need to create an "old school" email login.  This is important because we will have a nodejs script that will log in as you to check your child's account for points.
+
+
