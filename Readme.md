@@ -17,9 +17,11 @@ Setup
 
 - Todo (Explain how to install pi-hole and upgrade to pi-hole 5.0 beta)
 
-- sudo apt install nodejs npm
+- sudo apt install nodejs npm git
 
 - npm i puppeteer
 
 - npm i get-stdin
+
+- git clone https://github.com/1stOctet/YouWillUnderstandWhenYouAreOlder.git
 
