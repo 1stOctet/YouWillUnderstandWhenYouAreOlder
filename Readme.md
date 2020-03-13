@@ -1,5 +1,5 @@
 
-For those wondering.  The code for this can be used however you wish with no restrictions.  Knowing that children are leaning more because of this is the best form of payment.
+For those wondering.  The code for this can be used however you wish with no restrictions.  Knowing that children are learning more because of this is the best form of payment.
 
 I keep hearing about school closings and wonder how I can "encourage" my son and daughter to spend a little less time on social media and more time learning during school hours if their middle school closes.
 
