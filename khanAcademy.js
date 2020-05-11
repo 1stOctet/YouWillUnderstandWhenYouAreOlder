@@ -6,25 +6,26 @@ try {
   await engine.page.waitFor(1500);
 
   //add parent username here ***
-  await engine.page.type('input[id$="email-or-username"]', 'PUT YOUR USERNAME OR EMAIL ADDRESS HERE');
+  await engine.page.type('input[id$="email-or-username"]', 'youremail@gmail.com');      // <--------STEP 1
 
   //add parent password here ***
-  await engine.page.type('input[id$="password"]', 'PUT YOUR PASSWORD HERE');
+  await engine.page.type('input[id$="password"]', 'ChangeThisToYourParentPassword');   // <---------STEP 2
+
 
   const [button] = await engine.page.$x("//button[contains(., 'Log in')]");
   if (button) {await button.click();}
   await engine.page.waitFor(1500);
 
-  //This URL will work if your childs NEW account is called child1 ***
-  await engine.page.goto('https://www.khanacademy.org/parent/child/child1/');  
+  //fix this url, the kaid_763278946 will be for your child
+  await engine.page.goto('https://www.khanacademy.org/profile/kaid_CHANGETHISID');    // <----------STEP 3
 
-  await engine.page.waitFor(1500);
-  //let url = await engine.page.url();
-  //console.info(`The url is: ${url}`);
-  //let title = await engine.page.title();
-  //console.info(`The title is:${title}`);
-  const innerText = await engine.page.evaluate(() => document.querySelector('.energy-points-badge').innerText);
-  console.log(innerText);
+  await engine.page.waitFor(8000);
+  const body = await engine.page.evaluate(() => {
+  return {'body': document.body.innerText};
+  });
+  console.log('body:',body);
+
+  
   }
   catch (error){
 	console.log("caught error");
