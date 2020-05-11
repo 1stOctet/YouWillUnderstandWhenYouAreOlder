@@ -1,4 +1,4 @@
-Pi-hole 5.0 is official!  Create and issue to let me know you are serious about using this.  Happy to put in the time if people will use it!  
+Pi-hole 5.0 is official!  Create an issue to let me know you are serious about using this.  Happy to put in the time if people will use it!  
 
 
 For those wondering.  The code for this can be used however you wish with no restrictions.  Knowing that children are learning more because of this is the best form of payment.
