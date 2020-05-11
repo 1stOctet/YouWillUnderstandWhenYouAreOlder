@@ -59,10 +59,6 @@ Be sure to edit this file for the number of domains you are blocking periodicall
 
 -Todo (add database-script6.sh to disable the blacklisted domains so that they work until the cronjob enables them)
 
-All the functionality is here.  
-
-#Tomorrow night I will add the basic crontab scripts.  
-
 - Run a cronjob every 4 hours that enables the blacklisted domains.  After sleeping for 20 seconds, do a point check to create user-typingclub-last.txt file and user-khanacademy-last.txt files.  Create a file user-YouWillUnderstandWhenYouAreOlder.txt to signal to the other cronjob that sites are being blocked for that user(s).
 
 - If user-YouWillUnderstandWhenYouAreOlder.txt exists, this means the sites are blocked.  We need to frequently check khan academy and typing club to see if 1 point has been earned.  
@@ -71,4 +67,6 @@ All the functionality is here.
 
 - Todo (It is unecessary to frequently check for points if the user's ip address has not sent a DNS request in the last 15 minutes.  Some education sites will not like so many logins to check points all night.  Figure out the table to determine if the user has sent a DNS query in the last 15 minutes.  Ignore the apple / google domains that run often at night.
 
-
+Notes
+after running node khanacademy.js take the output and use this awk to put the point value in the variable $currentpoints
+currentpoints=(awk -F 'points earned\\\\t' 'print $2}' out.txt | awk -F '\' '{print $1}'
