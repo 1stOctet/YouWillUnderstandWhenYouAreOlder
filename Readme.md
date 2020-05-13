@@ -1,6 +1,6 @@
 Goal:  After 3 hours, block 1 or 2 sites that my 13 year old uses the most.  Unblock those sites once they have earned 1 point on Typing Club or Khan Academy.  Requires Pi-hole DNS software.  Pi-hole 5.0 is official as of May 10, 2020.  
 
-With the awesome per client features of Pi-hole 5.0 beta it will now be possible to add the ability to periodically block sites and unlock them after points are earned on khan academy, typing club or any site that has a web scrapable point system.
+With the awesome per client features of Pi-hole 5.0 it will now be possible to add the ability to periodically block sites and unlock them after points are earned on khan academy, typing club or any site that has a web scrapable point system.
 
 Create an issue if you run into any problems.  Happy to help everyone get up and running.  Note some familiarity with the linux command line will be required.
 
