@@ -1,20 +1,15 @@
-Pi-hole 5.0 is official!  Create an issue to let me know you are serious about using this.  Happy to put in the time if people will use it!  
-
-
-For those wondering.  The code for this can be used however you wish with no restrictions.  Knowing that children are learning more because of this is the best form of payment.
-
-I keep hearing about school closings and wonder how I can "encourage" my son and daughter to spend a little less time on social media and more time learning during school hours if their middle school closes.
-
-Original post on reddit..
-https://www.reddit.com/r/pihole/comments/fg5fht/how_to_encourage_your_children_to_use_the/
+Goal:  After 2 hours, block 1 or 2 sites that my 13 year old uses the most.  Unblock those sites once they have earned 1 point on Typing Club or Khan Academy.  Requires Pi-hole DNS software.  Pi-hole 5.0 is official as of May 10, 2020.  
 
 With the awesome per client features of Pi-hole 5.0 beta it will now be possible to add the ability to periodically block sites and unlock them after points are earned on khan academy, typing club or any site that has a web scrapable point system.
 
-Goal:  After 2 hours, block 2 or 3 sites that my 13 year old uses the most.  Unblock those sites once they have earned 1 point on Typing Club or Khan Academy.
+Create an issue if you run into any problems.  Happy to help everyone get up and running.  Note some familiarity with the linux command line will be required.
 
-I will update this readme as I do this tonight. 
+License to learn: Code can be used however you wish with no restrictions.  
 
-https://github.com/1stOctet/YouWillUnderstandWhenYouAreOlder
+
+
+
+
 
 Setup
 - Create an account on typing club or khan academy as a parent. Do not use a LINKED facebook or LINKED google account to log in. 
@@ -69,4 +64,4 @@ Be sure to edit this file for the number of domains you are blocking periodicall
 
 Notes
 after running node khanacademy.js take the output and use this awk to put the point value in the variable $currentpoints
-currentpoints=(awk -F 'points earned\\\\t' 'print $2}' out.txt | awk -F '\' '{print $1}'
+currentpoints=(awk -F 'points earned\\\\\\t' 'print $2}' out.txt | awk -F '\' '{print $1}'
